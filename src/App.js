@@ -7,7 +7,7 @@ import {list} from './data.js';
 import "./styles/amazon.css"
 function App() {
 
-  const [show, setShow]=useState(false);
+  const [show, setShow]=useState(true);
   const [cart, setCart]=useState([]);
   const [warning,setWarning]=useState(false);
 
