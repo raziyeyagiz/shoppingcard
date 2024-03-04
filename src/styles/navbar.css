@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+nav{
+    width:100%;
+    height:70px;
+    background-color:rgb(153, 62, 238);
+    position: fixed;
+}
+.navbox{
+    padding-top:20px;
+    width:80%;
+    margin:auto;
+   display: flex;
+   align-items: center;
+   color:pink;
+   justify-content: space-between;
+}
+.myshop{
+    font-size:1.5rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+.cart{
+    cursor:pointer;
+}
+.cart span:nth-child(1){
+    font-size: 1.5rem;
+}
+.cart span:nth-child(2){
+    padding: 0 3px;
+    background-color: rgb(234, 24, 24);
+    border-radius: 50%;
+    font-weight:bold;
+    position:relative;
+    top:-15px;
+}
